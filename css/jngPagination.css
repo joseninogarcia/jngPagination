@@ -1,0 +1,68 @@
+﻿/*
+    Created by Jose Nino N. Garcia
+*/
+
+
+html, body
+{
+    font-family:Tahoma;
+    font-size:12px;
+}
+
+table td
+{
+    padding:10px;
+    border:1px solid #dedede;
+}
+
+.jngPrevious, .jngNext
+{
+    float:left;
+    width:20px;
+    height:20px;
+    cursor:pointer;
+    margin-right:5px;
+    margin-left:3px;
+    margin-top:7px;
+}
+
+.jngClear
+{
+    clear:both;
+}
+
+#pagingToll ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#pagingToll li
+{
+    float:left;
+    background-color:#2b59a7;
+    margin-right:2px;
+    color:#ffffff;
+    font-family:Tahoma;
+    font-size:12px;
+    padding:10px;
+    cursor:pointer;
+    border-radius:3px;
+}
+
+#pagingToll li:hover
+{
+    background:#aac6f6;
+}
+
+.jngCurrent
+{
+    background-color:#1560df !important;
+}
+
+.pageDetail
+{
+    margin-top:10px;
+    font-weight:bold;
+}
