@@ -87,11 +87,18 @@ And for your HTML:
             <td>Philippines</td>
             <td>0832437284</td>
         </tr>
+        <tr>
+            <td>Are Lorenz</td>
+            <td>Bergonia</td>
+            <td>N.</td>
+            <td>Philippines</td>
+            <td>0832437284</td>
+        </tr>
 </tbody>
 </table>
 ```
 
 ##Version Number
 
-This is version 1, there are still upcoming updates on this plugin. If you have any coments or suggestions, you can e-mail me at joseninogarcia@gmail.com
+This is version 1, there are still upcoming updates on this plugin. If you have any comments or suggestions, you can e-mail me at joseninogarcia@gmail.com
 
