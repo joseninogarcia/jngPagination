@@ -91,3 +91,7 @@ And for your HTML:
 </table>
 ```
 
+##Version Number
+
+This is version 1, there are still upcoming updates on this plugin. If you have any coments or suggestions, you can e-mail me at joseninogarcia@gmail.com
+
