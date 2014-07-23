@@ -35,3 +35,59 @@ $(document).ready(function () {
 });
 
 ```
+
+Below explains the setting for you to change:
+
+-**itemsInPage** - Number of items you want to show in your web page.
+
+-**pagingIdentifierLinks** - I just called it Identifier Links but I think it's too far from the original name. But his setting is used to place the numbers of pagination like 1 2 3 4 5 6 
+
+-**parentIdentifier** - This is where are you going to place your pagination.
+
+-**pageNuberDetail** - This displays on what page are you, but you also have the option for you to put it on your web page or not. 
+
+And for your HTML:
+
+```
+<table id="myContent" width="100%" cellpadding="0" cellspacing="0">
+    <thead>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Middle Initial</th>
+            <th>Address</th>
+            <th>Telephone Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jose Nino</td>
+            <td>Garcia</td>
+            <td>N.</td>
+            <td>Philippines</td>
+            <td>0832437284</td>
+        </tr>
+        <tr>
+            <td>Mildred</td>
+            <td>Mendoza</td>
+            <td>N.</td>
+            <td>Philippines</td>
+            <td>0832437284</td>
+        </tr><tr>
+            <td>Oliver</td>
+            <td>Mamatic</td>
+            <td>N.</td>
+            <td>Philippines</td>
+            <td>0832437284</td>
+        </tr>
+        <tr>
+            <td>Jelo</td>
+            <td>Pasiolan</td>
+            <td>N.</td>
+            <td>Philippines</td>
+            <td>0832437284</td>
+        </tr>
+</tbody>
+</table>
+```
+
