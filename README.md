@@ -14,3 +14,24 @@ Before you initialize the plugin, first you need to placed this snippets of code
 <script type="text/javascript" language="javascript" src="js/jquery-1.11.1.js"></script>
 <script type="text/javascript" language="javascript" src="js/jngPaging.js"></script>
 ```
+
+As well as for the style
+
+```
+<link rel="Stylesheet" type="text/css" href="css/jngPagination.css" />
+```
+
+After that, placed this code for you to start initialize the plugin
+
+```
+
+$(document).ready(function () {
+    $(selector).jngPlugin({
+        itemsInPage: 10, //number of pages
+        pagingIdentifierLinks: "#pagingToll li", // ID of the pagination
+        parentIdentifier: "#pagingToll", //Parent ID
+        pageNumberDetail: "#pageNum" // page detail
+    });
+});
+
+```
